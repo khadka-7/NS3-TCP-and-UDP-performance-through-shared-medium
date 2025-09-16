@@ -5,18 +5,18 @@ A comparative analysis of performance of TCP (NewReno, Cubic and Bbr) and UDP
 
 This experiment models coexistence of TCP and UDP traffic over a shared wireless medium to study how transport-layer protocols interact under contention. The goal is to analyze performance metrics such as throughput, latency, jitter, packet loss, and fairness when a best-effort TCP flow and a rate-controlled UDP flow compete for a single bottleneck: a Wi-Fi access point.
 
-==== SIMULATION PARAMETERS ==== 
---Simulation Duration: 25 seconds 
---TCP Algorithm: 1. TcpNewReno 2. TcpCubic 3. TcpBbr 
---Bottleneck Bandwidth: 10 Mbps 
---Bottleneck Delay: 10 ms 
---Buffer Size: 1000 packets 
---UDP Rate: 6 Mbps
+==== SIMULATION PARAMETERS ==== /n
+--Simulation Duration: 25 seconds /n
+--TCP Algorithm: 1. TcpNewReno 2. TcpCubic 3. TcpBbr /n
+--Bottleneck Bandwidth: 10 Mbps /n
+--Bottleneck Delay: 10 ms /n
+--Buffer Size: 1000 packets /n
+--UDP Rate: 6 Mbps /n
 
--- Executing the script
---- /path-to-folder-of-NS3-installation/scratch
---- paste file or nano/filename.cc and paste
---- To execute and run: go to NS3 installed path
-                        - ./ns3 run /path/scratch/script_name.cc
+-- Executing the script /n
+--- /path-to-folder-of-NS3-installation/scratch  /n
+--- paste file or nano/filename.cc and paste /n
+--- To execute and run: go to NS3 installed path /n
+                        - ./ns3 run /path/scratch/script_name.cc /n
 
                         
