@@ -1,7 +1,9 @@
-Cross‑Layer Performance Analysis of TCP over 802.11ax EDCA WLANs
+**Cross‑Layer Performance Analysis of TCP over 802.11ax EDCA WLANs**
+
 This repository contains the ns‑3.46 simulation code and sweep scripts for a systematic study of how Wi‑Fi’s Enhanced Distributed Channel Access (EDCA) QoS mechanisms affect TCP performance in an 802.11ax network. The work investigates the coexistence of latency‑sensitive UDP traffic (voice, video) with best‑effort TCP flows under controlled, repeatable conditions.
 
-Overview
+**Overview**
+
 The primary research question is: How do EDCA access parameters (AIFSN, CWmin) and varying loads of high‑priority UDP traffic causally influence the behaviour of TCP congestion control algorithms – specifically RTT inflation, congestion window adaptation, throughput, and fairness – for BE (best‑effort) and BK (background) class flows?
 
 Using ns‑3’s detailed 802.11ax model, we simulate a single infrastructure BSS with one access point (AP) and two stations (STAs). Four traffic flows are generated from wired servers towards the STAs:
